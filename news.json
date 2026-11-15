@@ -1,5 +1,755 @@
 {
- "updated": null,
- "items": [],
- "sources": []
+ "updated": "2026-11-15T17:12:58Z",
+ "items": [
+  {
+   "id": "7dd3f2d9be37",
+   "title": "San Francisco Gets its Largest-Ever Gift: $100M for Public Parks From Airbnb Founder",
+   "summary": "Airbnb CEO Brian Chesky announced a groundbreaking $100 million donation to San Francisco’s parks, the largest-ever single-donor gift to the city in its history. Mayor Daniel Lurie joined Chesky for the announcement last week in Golden…",
+   "url": "https://www.goodnewsnetwork.org/san-francisco-gets-100m-gift-for-public-parks-from-airbnb-ceo/",
+   "image": "",
+   "source": "Good News Network",
+   "lang": "en",
+   "cat": "manniskor",
+   "date": "2026-11-15T15:36:21Z"
+  },
+  {
+   "id": "06be0ef25aed",
+   "title": "Couple with Autism and ADHD Find Passion Cleaning Filthy Street Signs",
+   "summary": "A married couple is spending their time cleaning filthy street signs—with dreams of traveling across the country until they are all spotless. Paul and Ruth Richmond-Watson started scrubbing street signs in September after feeling the urge…",
+   "url": "https://www.goodnewsnetwork.org/couple-with-autism-and-adhd-find-passion-cleaning-filthy-street-signs/",
+   "image": "",
+   "source": "Good News Network",
+   "lang": "en",
+   "cat": "ovrigt",
+   "date": "2026-11-14T18:56:02Z"
+  },
+  {
+   "id": "fe34aee54e35",
+   "title": "Two of the ‘Last Wild Ecosystems’ Untouched by Humans Are Declared New Sanctuaries",
+   "summary": "Some of the “very last wild and healthy ecosystems” unblemished by humans have been discovered in the remote atolls of the Pacific Ocean teeming with life. Scientists wrote in a new study that, although humans have left their mark on…",
+   "url": "https://www.goodnewsnetwork.org/two-of-last-wild-ecosystems-untouched-by-humans-declared-new-sanctuaries/",
+   "image": "",
+   "source": "Good News Network",
+   "lang": "en",
+   "cat": "klimat",
+   "date": "2026-11-14T16:16:07Z"
+  },
+  {
+   "id": "e61cfdf8a58b",
+   "title": "Heroic Bravery of Woman who Hid Troops from Nazis in WWII Revealed in Diaries 40 Years After her Death",
+   "summary": "The heroic wartime bravery of a British shopkeeper who hid Allied commandos from the Nazis during WWII has been revealed 40 years after her death. Ada Le Poidevin was living on the island of Guernsey in the English Channel when she…",
+   "url": "https://www.goodnewsnetwork.org/heroic-bravery-of-woman-who-hid-troops-from-nazis-in-wwii/",
+   "image": "",
+   "source": "Good News Network",
+   "lang": "en",
+   "cat": "manniskor",
+   "date": "2026-11-14T13:26:31Z"
+  },
+  {
+   "id": "cece96c30986",
+   "title": "Good News This Week: November 14, 2026 - Farms, Trucks, & Plastic Pouches",
+   "summary": "Your weekly roundup of the best good news worth celebrating...",
+   "url": "https://www.goodgoodgood.co/articles/good-news-this-week-november-14-2026",
+   "image": "https://cdn.prod.website-files.com/5f6cc9cd16d59d990c8fca33/6af811524f535392c005acc7_Good-News-This-Week-Nov-14-2026.jpg",
+   "source": "Good Good Good",
+   "lang": "en",
+   "cat": "klimat",
+   "date": "2026-11-14T13:00:00Z"
+  },
+  {
+   "id": "a9d0d1dc04f4",
+   "title": "From Brazil’s five-day week to free transit in Porto: 6 steps towards fairness",
+   "summary": "From Brazil’s shorter workweek to easier refunds for travelers: new rules and ideas are making everyday life fairer. Stay tuned for this weekend’s special edition!",
+   "url": "https://goodnews.eu/en/good-news/from-brazils-five-day-week-to-free-transit-in-porto-6-steps-towards-fairness/",
+   "image": "",
+   "source": "Good News EU",
+   "lang": "en",
+   "cat": "ovrigt",
+   "date": "2026-11-14T09:00:05Z"
+  },
+  {
+   "id": "9cc94f66695d",
+   "title": "Dr. King’s Lost Draft of ‘I Have a Dream’ Emerges from a Desk Drawer",
+   "summary": "A penned draft of the famous ‘I have a Dream’ speech, written by Martin Luther King Jr. the morning of the famous event on the Lincoln Memorial, has resurfaced after 6 decades. Unlike any other examples of his longhand writing ever found…",
+   "url": "https://www.goodnewsnetwork.org/dr-kings-lost-draft-of-i-have-a-dream-emerges-from-a-desk-drawer/",
+   "image": "",
+   "source": "Good News Network",
+   "lang": "en",
+   "cat": "ovrigt",
+   "date": "2026-11-13T19:30:02Z"
+  },
+  {
+   "id": "e9fc32ba7e2b",
+   "title": "Man Rescues Trapped Neighbors from ‘Biblical’ Florida Flooding",
+   "summary": "A man put his life on the line to rescue his vulnerable neighbors during a flood in Florida he he described as “biblical.” With one recovering from surgery and the other stricken with ALS, their survival hinged on help, which their…",
+   "url": "https://www.goodnewsnetwork.org/update-stories-of-daring-rescues-continue-to-surface-from-flooded-florida-communities/",
+   "image": "",
+   "source": "Good News Network",
+   "lang": "en",
+   "cat": "manniskor",
+   "date": "2026-11-13T16:30:59Z"
+  },
+  {
+   "id": "7a5025295e1a",
+   "title": "Infant Goes from 110 Seizures a Day to Seizure-Free with Experimental Treatment",
+   "summary": "From the first day of his life, little infant Adnan has suffered a seizure roughly every 13 minutes. One can only imagine the reactions from his Dubai hospital bedside when, having received a still-experimental drug, his seizures stopped…",
+   "url": "https://www.goodnewsnetwork.org/infant-goes-from-110-seizures-a-day-to-seizure-free-after-rare-treatment/",
+   "image": "",
+   "source": "Good News Network",
+   "lang": "en",
+   "cat": "halsa",
+   "date": "2026-11-13T14:00:22Z"
+  },
+  {
+   "id": "6b59566f78a8",
+   "title": "WWII Tryst at the Center of 80+Year Mystery That’s Now United Two Families",
+   "summary": "An 81-year-old Englishman grew up wondering who his real father was. What he didn’t know was that an entire family tree in Canada was wondering who and where he was. After being divided by a world war, an ocean, and 8 decades, Rodney…",
+   "url": "https://www.goodnewsnetwork.org/canadian-family-finally-identifies-grandfathers-long-lost-wwii-baby-in-england-after-80-years/",
+   "image": "",
+   "source": "Good News Network",
+   "lang": "en",
+   "cat": "klimat",
+   "date": "2026-11-13T12:30:36Z"
+  },
+  {
+   "id": "ef70736aa71d",
+   "title": "Maui Is Becoming a Living Laboratory for Regenerative Tourism",
+   "summary": "On August 8, 2023, fast-moving wildfires swept through several parts of West Maui. The town of Lahaina, which holds a deep place in Hawaiian history and once served as the capital of the Hawaiian Kingdom, suffered the greatest devastation…",
+   "url": "https://reasonstobecheerful.world/maui-living-laboratory-regenerative-tourism/",
+   "image": "",
+   "source": "Reasons to be Cheerful",
+   "lang": "en",
+   "cat": "ovrigt",
+   "date": "2026-11-13T08:00:12Z"
+  },
+  {
+   "id": "8546aec889c4",
+   "title": "Today's Good News",
+   "summary": "What better way to start the day than with a global round up of good news nuggets?",
+   "url": "https://www.onlygoodnewsdaily.com/post/today-s-good-news-13-nov-2026",
+   "image": "https://static.wixstatic.com/media/a06f21_1e2bc827649740e7a3c62587e189f85b~mv2.webp/v1/fit/w_1000,h_667,al_c,q_80/file.png",
+   "source": "Only Good News Daily",
+   "lang": "en",
+   "cat": "ovrigt",
+   "date": "2026-11-13T06:45:01Z"
+  },
+  {
+   "id": "336fc431e2af",
+   "title": "Ring of Bjólfur: Viking Legend Informs Icelandic Viewpoint",
+   "summary": "This elegant mountain viewpoint in Iceland evokes a giant silver ring left on the alleged burial site of a legendary Viking.",
+   "url": "https://www.onlygoodnewsdaily.com/post/ring-of-bj%C3%B3lfur-viking-legend-informs-icelandic-viewpoint",
+   "image": "https://static.wixstatic.com/media/a06f21_2ba26c0d933948fa90d2fe2cf3a82dd6~mv2.webp/v1/fit/w_1000,h_1000,al_c,q_80/file.png",
+   "source": "Only Good News Daily",
+   "lang": "en",
+   "cat": "ovrigt",
+   "date": "2026-11-13T06:30:03Z"
+  },
+  {
+   "id": "e1308978dc01",
+   "title": "Epitaphs: Another Collection of Funny Tomb Stones",
+   "summary": "Monty Python extolled us to \"always look on the bright side of life\" and some decide to extend this sentiment in amusing ways on their tomb stones. Here is an entertaining collection of messages from beyond the grave by a handful of people…",
+   "url": "https://www.onlygoodnewsdaily.com/post/epitaphs-another-collection-of-funny-tomb-stones",
+   "image": "https://static.wixstatic.com/media/a06f21_0f3e6a2346b54c4a809498fa7db3b732~mv2.jpg/v1/fit/w_605,h_454,al_c,q_80/file.png",
+   "source": "Only Good News Daily",
+   "lang": "en",
+   "cat": "ovrigt",
+   "date": "2026-11-13T06:15:01Z"
+  },
+  {
+   "id": "47c1669bbf49",
+   "title": "Vapor Plumes on The Summit of Mount Everest at Sunrise",
+   "summary": "Watch the summit of Mount Everest come alive at sunrise in this spectacular 4K timelapse.",
+   "url": "https://www.onlygoodnewsdaily.com/post/vapor-plumes-on-the-summit-of-mount-everest-at-sunrise",
+   "image": "",
+   "source": "Only Good News Daily",
+   "lang": "en",
+   "cat": "ovrigt",
+   "date": "2026-11-13T06:00:06Z"
+  },
+  {
+   "id": "06569641826b",
+   "title": "How two Princeton graduates built the world’s first microplastics removal system",
+   "summary": "BY THE OPTIMIST DAILY EDITORIAL TEAM For decades, wastewater treatment plants have been filtering out bacteria, chemicals, and biological waste before discharging treated water back into the environment. Microplastics have been going…",
+   "url": "https://www.optimistdaily.com/2026/11/how-two-princeton-graduates-built-the-worlds-first-microplastics-removal-system/",
+   "image": "https://www.optimistdaily.com/wp-content/uploads/modern-urban-wastewater-treatment-plant-Depositphotos_10917326_S.jpg",
+   "source": "The Optimist Daily",
+   "lang": "en",
+   "cat": "halsa",
+   "date": "2026-11-13T00:00:54Z"
+  },
+  {
+   "id": "9fe27f13d619",
+   "title": "Why spiders show up in your home every fall, and what to do about it",
+   "summary": "BY THE OPTIMIST DAILY EDITORIAL TEAM If you’ve noticed more spiders lately, near window frames, behind boxes in the garage, lurking in basement corners, you’re not imagining it. Fall is mating season for spiders, which makes them more…",
+   "url": "https://www.optimistdaily.com/2026/11/why-spiders-show-up-in-your-home-every-fall-and-what-to-do-about-it/",
+   "image": "https://www.optimistdaily.com/wp-content/uploads/brown-spider-poisonous-arachnid-walking-Depositphotos_302168698_S.jpg",
+   "source": "The Optimist Daily",
+   "lang": "en",
+   "cat": "ovrigt",
+   "date": "2026-11-13T00:00:47Z"
+  },
+  {
+   "id": "fc3776b1a4f5",
+   "title": "China Switches on World’s Biggest Example of New, Cheap Green Energy Storage",
+   "summary": "The world’s largest demonstration plant for a new kind of renewable energy storage is up and running in the west of the China. Called liquid-air energy storage (LAES) the plant uses renewable electricity to compress air to extreme…",
+   "url": "https://www.goodnewsnetwork.org/worlds-largest-liquid-air-renewable-energy-storage-system-switches-on/",
+   "image": "",
+   "source": "Good News Network",
+   "lang": "en",
+   "cat": "klimat",
+   "date": "2026-11-12T19:30:02Z"
+  },
+  {
+   "id": "0573e074eb36",
+   "title": "Filmmaker Helps 103-yo D-Day Survivor Recover His Lost War Medals",
+   "summary": "A 103-year-old D-Day veteran was reunited with his war medals just in time for Remembrance Day. The story came about through a remarkable coincidence when an amateur WWII historian came across the man’s military record and medals, and…",
+   "url": "https://www.goodnewsnetwork.org/documentarian-helps-103-yo-d-day-survivor-recover-his-lost-war-medals-just-in-time-for-veterans-day/",
+   "image": "",
+   "source": "Good News Network",
+   "lang": "en",
+   "cat": "ovrigt",
+   "date": "2026-11-12T16:30:00Z"
+  },
+  {
+   "id": "7e74666257a3",
+   "title": "For every anti-trans bill that passed in 2026, seven times as many failed: 'It’s grueling work, but it makes a difference'",
+   "summary": "In 2025 and 2026, efforts to roll back LGBTQ+ rights were repeatedly stalled — or stamped out altogether.",
+   "url": "https://www.goodgoodgood.co/articles/anti-trans-rhetoric-bills-government-advocacy",
+   "image": "https://cdn.prod.website-files.com/5f6cc9cd16d59d990c8fca33/6af4be2c0102ccc29f50e57a_6af4be2b1c762d41c1ffb6c3_anti-trans-rhetoric-bills-government-advocacy-featured.webp",
+   "source": "Good Good Good",
+   "lang": "en",
+   "cat": "ovrigt",
+   "date": "2026-11-12T14:15:00Z"
+  },
+  {
+   "id": "676d0e97ce42",
+   "title": "100-Year-Old ‘Store Mom’ Surprised With Her First Birthday Party",
+   "summary": "After 100 years, Gretchen Sollo had a major first: a surprise birthday party, thrown by the Lowe’s employees she sees every day. Following a stroke, Sollo turned to the aisles of Lowe’s for her daily walk and to keep out of the weather in…",
+   "url": "https://www.goodnewsnetwork.org/100-year-old-store-mom-first-birthday-party/",
+   "image": "",
+   "source": "Good News Network",
+   "lang": "en",
+   "cat": "ovrigt",
+   "date": "2026-11-12T14:07:08Z"
+  },
+  {
+   "id": "bf29d72f9021",
+   "title": "‘There’s a Georgia O’Keeffe in the Closet’ – Words that Led to Painting’s Joyous Rediscovery",
+   "summary": "“Oh, by the way, there’s a Georgia O’Keeffe in the closet.” One can only imagine the pause, double-take, or request for clarity which followed this comment, made by a woman’s elderly aunt in the midst of an effort to clean out her East…",
+   "url": "https://www.goodnewsnetwork.org/theres-a-georgia-okeefe-in-the-closet-words-that-led-to-paintings-joyous-rediscovery/",
+   "image": "",
+   "source": "Good News Network",
+   "lang": "en",
+   "cat": "ovrigt",
+   "date": "2026-11-12T14:00:23Z"
+  },
+  {
+   "id": "64250d6a0a1b",
+   "title": "Imagining the Mossy Cities of the Future",
+   "summary": "This story has been co-published by Reasons to be Cheerful and the Outrider Foundation. In 2012, Philip Wallisfurth wanted to save a tree. Citizens in Aachen, Germany, were protesting plans for a shopping center that threatened a…",
+   "url": "https://reasonstobecheerful.world/moss-as-living-infrastructure/",
+   "image": "https://reasonstobecheerful.world/wp-content/uploads/2026/11/Wallisfurth_Moos-Graffiti-Kuenstler-im-Einkaufszentrum.jpg",
+   "source": "Reasons to be Cheerful",
+   "lang": "en",
+   "cat": "ovrigt",
+   "date": "2026-11-12T08:00:43Z"
+  },
+  {
+   "id": "202d06c7cdf2",
+   "title": "Upbeat News Thursday",
+   "summary": "Today's smorgasbord of tasty news nuggets from around the globe.",
+   "url": "https://www.onlygoodnewsdaily.com/post/today-s-upbeat-news-11-nov-2026",
+   "image": "https://static.wixstatic.com/media/a06f21_04f4bd2b4e764d9e947f6d703b20c5d4~mv2.jpg/v1/fit/w_644,h_500,al_c,q_80/file.png",
+   "source": "Only Good News Daily",
+   "lang": "en",
+   "cat": "ovrigt",
+   "date": "2026-11-12T06:45:02Z"
+  },
+  {
+   "id": "8c523e2298d6",
+   "title": "The Oldest Known Astronomical Observatory on Earth",
+   "summary": "This mysterious 7,000-year-old stone circle is now known as the Stonehenge of the Sahara.",
+   "url": "https://www.onlygoodnewsdaily.com/post/the-oldest-known-astronomical-observatory-on-earth",
+   "image": "https://static.wixstatic.com/media/a06f21_13a7341dbb8541ae89b5874e16acd909~mv2.jpg/v1/fit/w_1000,h_1000,al_c,q_80/file.png",
+   "source": "Only Good News Daily",
+   "lang": "en",
+   "cat": "ovrigt",
+   "date": "2026-11-12T06:30:02Z"
+  },
+  {
+   "id": "e6466a9f17c3",
+   "title": "Two Hour Time-Lapse Shows Satellites Over New Zealand",
+   "summary": "This remarkable night-sky image is so bizarrely surreal that the man behind it has been accused of using artificial intelligence. But he did not.",
+   "url": "https://www.onlygoodnewsdaily.com/post/two-hour-time-lapse-shows-satellites-over-new-zealand",
+   "image": "https://static.wixstatic.com/media/a06f21_119932abee9c46acb406de30327b8fc1~mv2.jpg/v1/fit/w_620,h_593,al_c,q_80/file.png",
+   "source": "Only Good News Daily",
+   "lang": "en",
+   "cat": "ovrigt",
+   "date": "2026-11-12T06:15:03Z"
+  },
+  {
+   "id": "ea43797ff872",
+   "title": "The Invisible Horse: 2026 Disney Holiday Short",
+   "summary": "Just when Jack begins to think he’s too old for Christmas...",
+   "url": "https://www.onlygoodnewsdaily.com/post/the-invisible-horse-2026-disney-holiday-short",
+   "image": "",
+   "source": "Only Good News Daily",
+   "lang": "en",
+   "cat": "ovrigt",
+   "date": "2026-11-12T06:00:06Z"
+  },
+  {
+   "id": "d59bc119c516",
+   "title": "After a decade of community pressure, LA bans oil drilling for good",
+   "summary": "BY THE OPTIMIST DAILY EDITORIAL TEAM For more than a decade, residents in some of Los Angeles’s most densely populated neighborhoods have lived alongside oil wells: down the street from active drilling operations, near idle wells leaking…",
+   "url": "https://www.optimistdaily.com/2026/11/after-a-decade-of-community-pressure-la-bans-oil-drilling-for-good/",
+   "image": "https://www.optimistdaily.com/wp-content/uploads/oil-pump-jack-city-limits-Depositphotos_199434004_S.jpg",
+   "source": "The Optimist Daily",
+   "lang": "en",
+   "cat": "manniskor",
+   "date": "2026-11-12T00:00:35Z"
+  },
+  {
+   "id": "356a3ff6156e",
+   "title": "The dermatologist guide to a skin-friendly shower routine",
+   "summary": "BY THE OPTIMIST DAILY EDITORIAL TEAM The morning shower is one of those things most of us have never really questioned. The alarm goes off, the water runs, and there you are, ready to start your day. Dr. Aderonke Obayomi, a board-certified…",
+   "url": "https://www.optimistdaily.com/2026/11/the-dermatologist-guide-to-a-skin-friendly-shower-routine/",
+   "image": "https://www.optimistdaily.com/wp-content/uploads/woman-applying-body-lotion-Depositphotos_91712082_S.jpg",
+   "source": "The Optimist Daily",
+   "lang": "en",
+   "cat": "ovrigt",
+   "date": "2026-11-12T00:00:27Z"
+  },
+  {
+   "id": "d4f784e31f93",
+   "title": "100 poets wrote 100 poems about homelessness — then donated book proceeds back to their unhoused neighbors",
+   "summary": "British poet Andrew Mears lives in North East England, which has some of the highest rates of homelessness in the country.",
+   "url": "https://www.goodgoodgood.co/articles/poets-words-on-ne-street-homelessness",
+   "image": "https://cdn.prod.website-files.com/5f6cc9cd16d59d990c8fca33/6af4b73eb417c64866415f92_6af4b73d2f34a1d30dd8f1b0_poets-words-on-ne-street-homelessness-featured.webp",
+   "source": "Good Good Good",
+   "lang": "en",
+   "cat": "manniskor",
+   "date": "2026-11-11T18:45:00Z"
+  },
+  {
+   "id": "edf10c4f6877",
+   "title": "Copenhagen bans ads for climate-damaging transport, Court strengthens LGBTQ+ right",
+   "summary": "Six Good News to carry you through the rest of this week",
+   "url": "https://goodnews.eu/en/good-news/copenhagen-bans-ads-for-climate-damaging-transport-court-strengthens-lgbtq-right/",
+   "image": "",
+   "source": "Good News EU",
+   "lang": "en",
+   "cat": "klimat",
+   "date": "2026-11-11T17:22:53Z"
+  },
+  {
+   "id": "d1353464f912",
+   "title": "What We’re Reading: An 80-Cent Plastic Bag Is Saving Mothers’ Lives",
+   "summary": "Welcome back to our weekly behind-the-scenes glimpse at what’s getting our team talking. Tell us what you’ve been reading at info@reasonstobecheerful.world and we just might feature it here. In the bag A low-cost, low-tech intervention is…",
+   "url": "https://reasonstobecheerful.world/what-were-reading-an-80-cent-plastic-bag-is-saving-mothers-lives/",
+   "image": "https://reasonstobecheerful.world/wp-content/uploads/2024/03/NEW-YORK-TIMES-LOGO.png",
+   "source": "Reasons to be Cheerful",
+   "lang": "en",
+   "cat": "klimat",
+   "date": "2026-11-11T08:00:22Z"
+  },
+  {
+   "id": "a8cf685f3646",
+   "title": "OGN Wednesday",
+   "summary": "Mid-week collection of uplifting news nuggets from around the world.",
+   "url": "https://www.onlygoodnewsdaily.com/post/today-s-global-uplifting-news-11-nov-2026",
+   "image": "https://static.wixstatic.com/media/a06f21_4ce00923ad4c4806bf3a55249bc49162~mv2.webp/v1/fit/w_1000,h_1000,al_c,q_80/file.png",
+   "source": "Only Good News Daily",
+   "lang": "en",
+   "cat": "ovrigt",
+   "date": "2026-11-11T06:45:02Z"
+  },
+  {
+   "id": "cd203be90a86",
+   "title": "A Timely Shot of Optimism For COP31",
+   "summary": "The Democrats’ thumping win in the US midterms has delivered renewed hope to countries that can now look beyond the Trump era of climate obstruction.",
+   "url": "https://www.onlygoodnewsdaily.com/post/a-timely-shot-of-optimism-for-cop31",
+   "image": "https://static.wixstatic.com/media/a06f21_4f507995343a46f8bce78c152f056db8~mv2.jpg/v1/fit/w_1000,h_1000,al_c,q_80/file.png",
+   "source": "Only Good News Daily",
+   "lang": "en",
+   "cat": "klimat",
+   "date": "2026-11-11T06:30:02Z"
+  },
+  {
+   "id": "079c9089ebac",
+   "title": "People Around The World Help to Buy Huge Noble Estate For Conservation",
+   "summary": "Sir David Attenborough celebrated the achievement, saying that “together, we’ve achieved something amazing.”",
+   "url": "https://www.onlygoodnewsdaily.com/post/people-around-the-world-help-to-buy-huge-noble-estate-for-conservation",
+   "image": "https://static.wixstatic.com/media/a06f21_0a9e983ef3154f2eb585b7f641a39e35~mv2.webp/v1/fit/w_900,h_536,al_c,q_80/file.png",
+   "source": "Only Good News Daily",
+   "lang": "en",
+   "cat": "klimat",
+   "date": "2026-11-11T06:15:02Z"
+  },
+  {
+   "id": "a1af9d887a99",
+   "title": "Giant Mola Mola Gobbles Up Jelly Fish",
+   "summary": "These ocean sunfish rise to the surface for a meal and a spot of pampering.",
+   "url": "https://www.onlygoodnewsdaily.com/post/giant-mola-mola-gobbles-up-jelly-fish",
+   "image": "https://static.wixstatic.com/media/a06f21_d019dbbc8c7c46a9a94bad121eea64bc~mv2.jpg/v1/fit/w_967,h_788,al_c,q_80/file.png",
+   "source": "Only Good News Daily",
+   "lang": "en",
+   "cat": "klimat",
+   "date": "2026-11-11T06:00:05Z"
+  },
+  {
+   "id": "74a2f1405928",
+   "title": "Prince Bashangezi turned personal loss into peer tutoring for refugee students",
+   "summary": "BY THE OPTIMIST DAILY EDITORIAL TEAM This article is part of The Optimist Daily’s Local Changemakers 2026 series, spotlighting changemakers 30 and under. In March 2020, COVID lockdowns shuttered schools around the world, including at…",
+   "url": "https://www.optimistdaily.com/2026/11/prince-bashangezi-turned-personal-loss-into-peer-tutoring-for-refugee-students/",
+   "image": "https://www.optimistdaily.com/wp-content/uploads/Local-Changemakers-Story-Covers-13.png",
+   "source": "The Optimist Daily",
+   "lang": "en",
+   "cat": "manniskor",
+   "date": "2026-11-11T00:00:49Z"
+  },
+  {
+   "id": "cc152d1d03a5",
+   "title": "Brazil releases the world’s first fossil fuel phaseout roadmap",
+   "summary": "BY THE OPTIMIST DAILY EDITORIAL TEAM The question hanging over international climate talks for years has not really been whether the world would shift away from fossil fuels. It has been whether the countries most responsible for burning…",
+   "url": "https://www.optimistdaily.com/2026/11/brazil-releases-the-worlds-first-fossil-fuel-phaseout-roadmap/",
+   "image": "https://www.optimistdaily.com/wp-content/uploads/oil-pumps-on-sunset-Depositphotos_5186129_S.jpg",
+   "source": "The Optimist Daily",
+   "lang": "en",
+   "cat": "klimat",
+   "date": "2026-11-11T00:00:37Z"
+  },
+  {
+   "id": "6207748bcf62",
+   "title": "She lost her son to bullying. Now she offers to help LGBTQ+ teens around the world as the 'Internet’s Mom'",
+   "summary": "Aarti Malhotra reminds her viewers: “You never know what someone is going through.”",
+   "url": "https://www.goodgoodgood.co/articles/internet-mom-lgtbq-teens-queer-community",
+   "image": "https://cdn.prod.website-files.com/5f6cc9cd16d59d990c8fca33/6af3597c52ce8d8f66865824_6af3597abec71a83a8d4098e_internet-mom-lgtbq-teens-queer-community-featured.webp",
+   "source": "Good Good Good",
+   "lang": "en",
+   "cat": "ovrigt",
+   "date": "2026-11-10T17:56:00Z"
+  },
+  {
+   "id": "83227ec2b482",
+   "title": "Italy invests $2.2M in rescuing dogs from fighting rings, adopting them out to families for 'the happiest years of their life'",
+   "summary": "Dogfighting is a widespread underground practice in Italy, but the Humane World for Animals Italy is hard at work to bring it to an end — and give rescued dogs a second chance.",
+   "url": "https://www.goodgoodgood.co/articles/dogfighting-rings-italy-rescue-rehabilitation",
+   "image": "https://cdn.prod.website-files.com/5f6cc9cd16d59d990c8fca33/6af354285cb0734cee00a85e_6af3542740ffdc98b024557c_dogfighting-rings-italy-rescue-rehabilitation-featured.webp",
+   "source": "Good Good Good",
+   "lang": "en",
+   "cat": "djur",
+   "date": "2026-11-10T17:32:00Z"
+  },
+  {
+   "id": "1e821b55e816",
+   "title": "This farm spent $100K a year to keep 10,000 gophers at bay. Then they realized coyotes could do the work for them",
+   "summary": "The farmers behind the popular documentary, “The Biggest Little Farm,” spent a fortune to keep gophers at bay. Then they let predators step in.",
+   "url": "https://www.goodgoodgood.co/articles/biggest-little-farm-docuseries-farmers-chesters",
+   "image": "https://cdn.prod.website-files.com/5f6cc9cd16d59d990c8fca33/6af23c739a381211df0dbba4_6af23c72c0abcd6dd04994ab_biggest-little-farm-docuseries-farmers-chesters-featured.webp",
+   "source": "Good Good Good",
+   "lang": "en",
+   "cat": "ovrigt",
+   "date": "2026-11-09T21:38:00Z"
+  },
+  {
+   "id": "e544544c64f8",
+   "title": "Corrective surgery on intersex infants is legal in 80% of the world. An Australian state is banning it entirely",
+   "summary": "According to experts, being intersex is a physical characteristic that’s as common as having red hair or green eyes.",
+   "url": "https://www.goodgoodgood.co/articles/australia-intersex-surgeries-infants-ban",
+   "image": "https://cdn.prod.website-files.com/5f6cc9cd16d59d990c8fca33/6af1ff9e8333e3454a0c61c8_6af1ff9d944dd3b0ebf05ca0_australia-intersex-surgeries-infants-ban-featured.webp",
+   "source": "Good Good Good",
+   "lang": "en",
+   "cat": "ovrigt",
+   "date": "2026-11-09T17:22:00Z"
+  },
+  {
+   "id": "13922fc03ca7",
+   "title": "Colleges Are Getting Creative to Help Students With Kids",
+   "summary": "This story was originally published by Open Campus. Walking by New River’s advising office one day, Stephanie Addikis noticed that the coloring books and Legos that she had helped stock in a nearby box were … “well-loved.” This was just…",
+   "url": "https://reasonstobecheerful.world/rural-colleges-student-parents-support/",
+   "image": "https://reasonstobecheerful.world/wp-content/uploads/2026/11/IMG_9254-653x870-1.jpeg",
+   "source": "Reasons to be Cheerful",
+   "lang": "en",
+   "cat": "manniskor",
+   "date": "2026-11-09T16:39:10Z"
+  },
+  {
+   "id": "1aee57840719",
+   "title": "New study shows that 'queer friendships' are good for your health",
+   "summary": "Researchers at Michigan State University and the University of Kentucky found links between LGTBQ+ peers and their mental well-being.",
+   "url": "https://www.goodgoodgood.co/articles/new-study-queer-friendship-health",
+   "image": "https://cdn.prod.website-files.com/5f6cc9cd16d59d990c8fca33/6af1f288bdcdefc967667671_6af1f285946f0fab106ab27c_new-study-queer-friendship-health-featured.webp",
+   "source": "Good Good Good",
+   "lang": "en",
+   "cat": "halsa",
+   "date": "2026-11-09T16:20:00Z"
+  },
+  {
+   "id": "5ef89c60cbc0",
+   "title": "California aims to vacate 548 death sentences, Clean bedroom air could stabilize blood sugar in prediabetes",
+   "summary": "Six Good News for a great start to the week",
+   "url": "https://goodnews.eu/en/good-news/california-aims-to-vacate-548-death-sentences-clean-bedroom-air-could-stabilize-blood-sugar-in-prediabetes/",
+   "image": "",
+   "source": "Good News EU",
+   "lang": "en",
+   "cat": "ovrigt",
+   "date": "2026-11-09T14:52:14Z"
+  },
+  {
+   "id": "f8b75e004af8",
+   "title": "These trans and nonbinary candidates just made history",
+   "summary": "Across six states, these Democratic candidates will be the first transgender and nonbinary people to serve in their state legislatures.",
+   "url": "https://www.goodgoodgood.co/articles/trans-candidates-made-history",
+   "image": "https://cdn.prod.website-files.com/5f6cc9cd16d59d990c8fca33/6af1476d36c5e2b2f583b518_6af14633e61daa8cf9b63528_trans-candidates-made-history-featured.webp",
+   "source": "Good Good Good",
+   "lang": "en",
+   "cat": "ovrigt",
+   "date": "2026-11-09T05:02:00Z"
+  },
+  {
+   "id": "d62893b3e26a",
+   "title": "In Minnesota and New Mexico, midterms usher in historic representation for Native women",
+   "summary": "Democrat Deb Haaland will be the country's first Native woman governor, and Democrat Peggy Flanagan is set to become the first Native woman to secure a U.S. Senate seat.",
+   "url": "https://www.goodgoodgood.co/articles/minnesota-new-mexico-native-american",
+   "image": "https://cdn.prod.website-files.com/5f6cc9cd16d59d990c8fca33/6af14e7b7a1816636619085d_6af14e559608f22d36d25c85_minnesota-new-mexico-native-american-featured.webp",
+   "source": "Good Good Good",
+   "lang": "en",
+   "cat": "ovrigt",
+   "date": "2026-11-09T04:59:00Z"
+  },
+  {
+   "id": "f31b0ed440b4",
+   "title": "Keisha Lance Bottoms made history as the first Black woman to be elected governor in the US",
+   "summary": "The race was among the most competitive of the cycle in a state that helped elect President Donald Trump just two years ago.",
+   "url": "https://www.goodgoodgood.co/articles/keisha-lance-bottoms-black-governor-georgia",
+   "image": "https://cdn.prod.website-files.com/5f6cc9cd16d59d990c8fca33/6af14e7b7a18166366190860_6af14e557a1816636618fdc5_keisha-lance-bottoms-black-governor-georgia-featured.webp",
+   "source": "Good Good Good",
+   "lang": "en",
+   "cat": "ovrigt",
+   "date": "2026-11-09T04:58:00Z"
+  },
+  {
+   "id": "232df24d5376",
+   "title": "Gina Hinojosa made history as the first Latina to be elected governor in Texas",
+   "summary": "Hinojosa, a Democratic state legislator, challenged Republican incumbent Greg Abbott, who was running for a fourth term.",
+   "url": "https://www.goodgoodgood.co/articles/gina-hinojosa-texas-first-latina-governor",
+   "image": "https://cdn.prod.website-files.com/5f6cc9cd16d59d990c8fca33/6af1527c7ae69556d5387faf_6af152669608f22d36d340b2_gina-hinojosa-texas-latina-featured.webp",
+   "source": "Good Good Good",
+   "lang": "en",
+   "cat": "ovrigt",
+   "date": "2026-11-09T04:57:00Z"
+  },
+  {
+   "id": "f5cd7a3bf4cd",
+   "title": "7 Good News about everyday habits that do us good",
+   "summary": "From walking and laughing to simply breathing slowly: small habits can do a lot for our minds and relationships. Stay tuned for this weekend’s special edition!",
+   "url": "https://goodnews.eu/en/good-news/7-good-news-about-everyday-habits-that-do-us-good/",
+   "image": "",
+   "source": "Good News EU",
+   "lang": "en",
+   "cat": "ovrigt",
+   "date": "2026-11-07T09:00:26Z"
+  },
+  {
+   "id": "b76ba0730d07",
+   "title": "$160 million for Kenya’s nature, Horseshoe crabs discovered in the southern Philippines",
+   "summary": "Rewilding initiatives, rescued victims of smuggling, and rare discoveries: in global wildlife conservation, dramatic individual rescues and new habitats bring fresh hope to threatened ecosystems.",
+   "url": "https://goodnews.eu/en/good-news/160-million-for-kenyas-nature-horseshoe-crabs-discovered-in-the-southern-philippines/",
+   "image": "",
+   "source": "Good News EU",
+   "lang": "en",
+   "cat": "djur",
+   "date": "2026-11-06T16:54:52Z"
+  },
+  {
+   "id": "a0888cd9ee24",
+   "title": "The Spark: When Communities Own the Land, Housing Stays Affordable",
+   "summary": "Welcome back to The Spark, our monthly celebration of how people just like you are creating positive change, one meaningful step at a time. The Spark is generously supported by Laura Rice. Sign up to Reasons to be Cheerful’s weekly…",
+   "url": "https://reasonstobecheerful.world/the-spark-community-land-trusts/",
+   "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f3d8.png",
+   "source": "Reasons to be Cheerful",
+   "lang": "en",
+   "cat": "ovrigt",
+   "date": "2026-11-06T08:00:21Z"
+  },
+  {
+   "id": "4c3c67fa260b",
+   "title": "The Montana Ranch Where Autistic People Are Wranglers and Guides",
+   "summary": "The staff at Erik’s Ranch & Retreats has a saying: Sheets, towels and lives changed daily. Erik’s Ranch is a guest retreat where autistic people are concierges, guides, wranglers, cooks and more. Located on 230 acres of pristine pasture…",
+   "url": "https://reasonstobecheerful.world/montana-guest-ranch-employing-autistic-people/",
+   "image": "https://reasonstobecheerful.world/wp-content/uploads/2026/10/EriksRanch-010-scaled.jpeg",
+   "source": "Reasons to be Cheerful",
+   "lang": "en",
+   "cat": "ovrigt",
+   "date": "2026-11-05T15:35:06Z"
+  },
+  {
+   "id": "2550559cb90e",
+   "title": "The Election That Transcended Tribalism",
+   "summary": "Pundits are describing last night as a romp for Democrats, a rebuke of Republicans, a blue tsunami, a rout in the red states. But underneath these headlines is a quieter, parallel story about voters choosing to abandon tribal allegiance…",
+   "url": "https://reasonstobecheerful.world/midterm-elections-transcend-tribalism/",
+   "image": "https://reasonstobecheerful.world/wp-content/uploads/2026/10/IMG_9652-scaled.jpg",
+   "source": "Reasons to be Cheerful",
+   "lang": "en",
+   "cat": "ovrigt",
+   "date": "2026-11-04T16:46:50Z"
+  },
+  {
+   "id": "ee39a1de9b16",
+   "title": "The Counter-Extremism Expert Building Our Capacity for Compassion",
+   "summary": "A former Los Angeles gang member, a former skinhead and a former radical Islamist walk into a youth center. What sounds like the setup for an uneasy joke is at the core of Farah Pandith’s work: Put people who might otherwise never share a…",
+   "url": "https://reasonstobecheerful.world/counter-extremism-expert-farah-pandith-compassion-rebuilding-connection/",
+   "image": "https://reasonstobecheerful.world/wp-content/uploads/2026/11/U.S._Special_Representative_to_Muslim_Communities_Farah_Pandith_visits_Pesantren_Sirojul_Munir_in_Bekasi_6025301458.jpg",
+   "source": "Reasons to be Cheerful",
+   "lang": "en",
+   "cat": "ovrigt",
+   "date": "2026-11-03T15:07:47Z"
+  },
+  {
+   "id": "1a9577ead1dc",
+   "title": "The Student Movement Addressing Campus Polarization Head On",
+   "summary": "Just weeks after conservative activist Charlie Kirk was assassinated while speaking at a college last September, students gathered in a University of Michigan classroom to discuss freedom of speech. Sitting in a semicircle, they were…",
+   "url": "https://reasonstobecheerful.world/students-addressing-campus-polarization-healthy-debate/",
+   "image": "https://reasonstobecheerful.world/wp-content/uploads/2026/11/Workshop-1-scaled.jpg",
+   "source": "Reasons to be Cheerful",
+   "lang": "en",
+   "cat": "manniskor",
+   "date": "2026-11-02T18:20:08Z"
+  },
+  {
+   "id": "55fb174bd9d2",
+   "title": "Themsens nästa kapitel: avloppsutsläppen har minskat med 86 procent",
+   "summary": "Under sitt första hela år minskade Londons nya avloppstunnel bräddningarna till Themsen med 86 procent. Floden som en gång förklarades biologiskt död fortsätter sin återhämtning.",
+   "url": "https://www.goodnewsmagazine.se/post/themsens-nasta-kapitel-avloppsutslappen-har-minskat-med-86-procent",
+   "image": "https://static.wixstatic.com/media/dc845e_f6b3615efdd24effb63ed19a04c891bd~mv2.png/v1/fit/w_1000,h_1000,al_c,q_80/file.png",
+   "source": "Good News Magazine",
+   "lang": "sv",
+   "cat": "ovrigt",
+   "date": "2026-11-02T17:21:43Z"
+  },
+  {
+   "id": "d7397c08d49c",
+   "title": "Kenya ska skydda natur motsvarande närmare 40 procent av Sveriges yta",
+   "summary": "Kenya ska skydda en yta nästan lika stor som Götaland och Svealand tillsammans. Där lever elefanter, spetsnoshörningar och lejon, och omkring 1,6 miljoner människor väntas få direkt nytta, bland annat genom ekoturism och hållbart bete.",
+   "url": "https://www.goodnewsmagazine.se/post/kenya-ska-skydda-natur-motsvarande-narmare-40-procent-av-sveriges-yta",
+   "image": "https://static.wixstatic.com/media/dc845e_17c6dd24ef8c4bbf84a2cca1da77d17d~mv2.jpg/v1/fit/w_1000,h_1000,al_c,q_80/file.png",
+   "source": "Good News Magazine",
+   "lang": "sv",
+   "cat": "klimat",
+   "date": "2026-11-01T12:05:23Z"
+  },
+  {
+   "id": "5b0bdcd865d4",
+   "title": "Miljontals unga träd växer tillbaka i Skottlands högland",
+   "summary": "Laserkartor från luften visar att 2,65 miljoner unga träd har etablerat sig av egen kraft i Cairngorms nationalpark sedan hjortstammen minskades. Över 5 200 hektar öppen mark har blivit ung skog.",
+   "url": "https://www.goodnewsmagazine.se/post/miljontals-unga-trad-vaxer-tillbaka",
+   "image": "https://static.wixstatic.com/media/dc845e_ae6b5fe87dd245578cea81ebef074331~mv2.jpg/v1/fit/w_1000,h_1000,al_c,q_80/file.png",
+   "source": "Good News Magazine",
+   "lang": "sv",
+   "cat": "klimat",
+   "date": "2026-10-30T12:03:46Z"
+  },
+  {
+   "id": "4d782f21b526",
+   "title": "Blyhaglen ska bort ur hela EU:s natur",
+   "summary": "Europaparlamentet har röjt vägen för ett förbud mot blyhagel i hela EU. Beslutet bygger vidare på våtmarksförbudet från 2023 och kan enligt BirdLife skydda 135 miljoner fåglar.",
+   "url": "https://www.goodnewsmagazine.se/post/blyhaglen-ska-bort-ur-hela-eu-s-natur",
+   "image": "https://static.wixstatic.com/media/dc845e_fa84893a9ad2468fabf64b2e241abc25~mv2.jpg/v1/fit/w_1000,h_1000,al_c,q_80/file.png",
+   "source": "Good News Magazine",
+   "lang": "sv",
+   "cat": "djur",
+   "date": "2026-10-24T10:21:58Z"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Bra nyheter",
+   "site": "http://www.branyheter.se/",
+   "lang": "sv",
+   "ok": true,
+   "count": 0,
+   "error": ""
+  },
+  {
+   "name": "Klimatnytt",
+   "site": "https://www.klimatnytt.se/goda-nyheter/",
+   "lang": "sv",
+   "ok": true,
+   "count": 0,
+   "error": ""
+  },
+  {
+   "name": "Good News Magazine",
+   "site": "https://www.goodnewsmagazine.se/",
+   "lang": "sv",
+   "ok": true,
+   "count": 4,
+   "error": ""
+  },
+  {
+   "name": "Good News Network",
+   "site": "https://www.goodnewsnetwork.org/",
+   "lang": "en",
+   "ok": true,
+   "count": 12,
+   "error": ""
+  },
+  {
+   "name": "Positive News",
+   "site": "https://www.positive.news/",
+   "lang": "en",
+   "ok": false,
+   "count": 0,
+   "error": "HTTPError: HTTP Error 403: Forbidden; sajten: HTTPError"
+  },
+  {
+   "name": "Good Good Good",
+   "site": "https://www.goodgoodgood.co/",
+   "lang": "en",
+   "ok": true,
+   "count": 12,
+   "error": ""
+  },
+  {
+   "name": "Reasons to be Cheerful",
+   "site": "https://reasonstobecheerful.world/",
+   "lang": "en",
+   "ok": true,
+   "count": 9,
+   "error": ""
+  },
+  {
+   "name": "The Optimist Daily",
+   "site": "https://www.optimistdaily.com/",
+   "lang": "en",
+   "ok": true,
+   "count": 6,
+   "error": ""
+  },
+  {
+   "name": "Only Good News Daily",
+   "site": "https://www.onlygoodnewsdaily.com/",
+   "lang": "en",
+   "ok": true,
+   "count": 12,
+   "error": ""
+  },
+  {
+   "name": "Good News EU",
+   "site": "https://goodnews.eu/en/",
+   "lang": "en",
+   "ok": true,
+   "count": 5,
+   "error": ""
+  },
+  {
+   "name": "Warp News",
+   "site": "https://www.warpnews.org/",
+   "lang": "en",
+   "ok": false,
+   "count": 0,
+   "error": "HTTPError: HTTP Error 404: Not Found"
+  }
+ ]
 }
