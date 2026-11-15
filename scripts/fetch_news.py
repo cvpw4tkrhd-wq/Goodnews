@@ -185,6 +185,9 @@ def parse_feed(data, base=None):
             "title": title,
             "url": link,
             "summary": clean(summary or body, 240),
+            # Längre utdrag till läsvyn. Aldrig hela artikeln – bara en bit av
+            # det källan själv skickar med i flödet.
+            "excerpt": clean(body if body and len(clean(summary)) < 200 else summary, 600),
             "image": http_url(image, base),
             "date": date,
         })
@@ -257,6 +260,7 @@ def build(now=None):
                 "id": hashlib.sha1(it["url"].encode()).hexdigest()[:12],
                 "title": it["title"],
                 "summary": it["summary"],
+                "excerpt": it["excerpt"],
                 "url": it["url"],
                 "image": it["image"],
                 "source": src["name"],

@@ -92,6 +92,21 @@ details li { display: flex; justify-content: space-between; gap: 12px; padding: 
 details a { color: var(--ink); }
 .dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 8px; background: #58a55c; }
 .dot.off { background: #c9bfa9; }
+.reader { position: fixed; inset: 0; z-index: 20; background: var(--bg); overflow-y: auto; -webkit-overflow-scrolling: touch;
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left); }
+.reader[hidden] { display: none; }
+.rbar { position: sticky; top: 0; background: var(--bg); display: flex; justify-content: space-between; align-items: center;
+  max-width: 680px; margin: 0 auto; padding: 8px 8px; }
+.rbtn { font: inherit; font-size: 16px; min-height: 44px; padding: 8px 12px; border: 0; background: none; color: var(--ink); cursor: pointer; border-radius: 10px; }
+.rbtn[aria-pressed="true"] { color: var(--sun-ink); font-weight: 600; }
+.rwrap { max-width: 680px; margin: 0 auto; padding: 0 20px 48px; }
+.rwrap img { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 16px; background: var(--sun-soft); margin: 4px 0 18px; }
+.rwrap h2 { font-family: var(--serif); font-size: 28px; line-height: 1.2; font-weight: 600; margin: 0 0 10px; text-wrap: balance; }
+.rwrap .meta { margin-bottom: 18px; }
+.rtext { font-family: var(--serif); font-size: 19px; line-height: 1.6; margin: 0 0 22px; white-space: pre-line; }
+.rnote { font-size: 13px; color: var(--muted); margin: 0 0 18px; }
+.rlink { display: block; text-align: center; text-decoration: none; font-weight: 600; color: #2a1a02; background: var(--sun);
+  padding: 14px 16px; border-radius: 14px; }
 @media (prefers-reduced-motion: reduce) { .refresh.spin svg { animation: none; } }
 </style>
 </head>
@@ -122,6 +137,21 @@ details a { color: var(--ink); }
     <p>Nyheterna hämtas automatiskt några gånger per dag. Varje nyhet öppnas hos den källa som har skrivit den.</p>
   </details>
 </main>
+
+<div class="reader" id="reader" role="dialog" aria-modal="true" aria-labelledby="rTitle" hidden>
+  <div class="rbar">
+    <button class="rbtn" id="rBack">‹ Tillbaka</button>
+    <button class="rbtn" id="rFav" aria-pressed="false">☆ Spara</button>
+  </div>
+  <article class="rwrap">
+    <img id="rImg" alt="" referrerpolicy="no-referrer">
+    <h2 id="rTitle"></h2>
+    <div class="meta" id="rMeta"></div>
+    <p class="rtext" id="rText"></p>
+    <p class="rnote" id="rNote"></p>
+    <a class="rlink" id="rLink" target="_blank" rel="noopener noreferrer"></a>
+  </article>
+</div>
 
 <script>
 (function () {
@@ -167,7 +197,11 @@ details a { color: var(--ink); }
   function card(it, hero) {
     var url = safeUrl(it.url);
     var img = safeUrl(it.image);
-    var a = el("a", { class: "main", href: url || "#", target: "_blank", rel: "noopener noreferrer", lang: it.lang || "sv" });
+    var a = el("a", { class: "main", href: url || "#", lang: it.lang || "sv" });
+    a.addEventListener("click", function (e) {
+      if (e.metaKey || e.ctrlKey || e.shiftKey) return;
+      e.preventDefault(); openReader(it);
+    });
     if (img) {
       var im = el("img", { src: img, alt: "", loading: hero ? "eager" : "lazy", decoding: "async", referrerpolicy: "no-referrer" });
       im.addEventListener("error", function () { im.remove(); });
@@ -200,6 +234,56 @@ details a { color: var(--ink); }
     });
     return el("article", { class: "card" + (hero ? " hero" : "") }, [a, fav]);
   }
+
+  var current = null;
+  function setFavBtn() {
+    var on = !!(current && saved[current.id]);
+    $("rFav").setAttribute("aria-pressed", String(on));
+    $("rFav").textContent = on ? "★ Sparad" : "☆ Spara";
+  }
+  function openReader(it) {
+    current = it;
+    var img = safeUrl(it.image), url = safeUrl(it.url), im = $("rImg");
+    im.hidden = !img;
+    if (img) im.src = img; else im.removeAttribute("src");
+    $("rTitle").textContent = it.title;
+    $("rTitle").lang = $("rText").lang = it.lang || "sv";
+    var meta = $("rMeta"); meta.textContent = "";
+    meta.appendChild(el("b", { text: it.source }));
+    meta.appendChild(el("span", { text: "· " + ago(it.date) }));
+    if (CAT_NAMES[it.cat]) meta.appendChild(el("span", { class: "tag", text: CAT_NAMES[it.cat] }));
+    var text = it.excerpt || it.summary || "";
+    $("rText").textContent = text || "Källan skickar inte med någon text till den här nyheten.";
+    $("rNote").textContent = text ? "Utdrag ur artikeln, skrivet av " + it.source + "." : "";
+    var link = $("rLink");
+    link.hidden = !url;
+    if (url) { link.href = url; link.textContent = "Läs hela artikeln hos " + it.source; }
+    setFavBtn();
+    $("reader").hidden = false;
+    $("reader").scrollTop = 0;
+    document.body.style.overflow = "hidden";
+    try { history.pushState({ reader: it.id }, ""); } catch (e) {}
+    $("rBack").focus();
+  }
+  function hideReader() {
+    if ($("reader").hidden) return;
+    $("reader").hidden = true;
+    document.body.style.overflow = "";
+    current = null;
+    render();
+  }
+  function closeReader() {
+    if (history.state && history.state.reader) history.back(); else hideReader();
+  }
+  window.addEventListener("popstate", hideReader);
+  document.addEventListener("keydown", function (e) { if (e.key === "Escape" && !$("reader").hidden) closeReader(); });
+  $("rBack").addEventListener("click", closeReader);
+  $("rImg").addEventListener("error", function () { $("rImg").hidden = true; });
+  $("rFav").addEventListener("click", function () {
+    if (!current) return;
+    if (saved[current.id]) delete saved[current.id]; else saved[current.id] = current;
+    store.set("lg-saved", saved); setFavBtn();
+  });
 
   function visible() {
     if (filter === "sparade") {

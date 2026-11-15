@@ -1,7 +1,7 @@
 // Ljusglimtar – service worker.
 // Appskalet cachas, news.json hämtas alltid från nätet först och faller
 // tillbaka på senast sparade version när du är offline.
-const CACHE = "ljusglimtar-v1";
+const CACHE = "ljusglimtar-v2";
 const SHELL = ["./", "index.html", "manifest.webmanifest", "icon-180.png", "icon-512.png"];
 
 self.addEventListener("install", (e) => {
