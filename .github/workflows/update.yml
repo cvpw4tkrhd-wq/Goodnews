@@ -1,0 +1,40 @@
+name: Uppdatera nyheter
+
+on:
+  schedule:
+    # Tider i UTC. Motsvarar ca 06:17, 11:17, 16:17 och 21:17 svensk vintertid
+    # (en timme senare under sommartid).
+    - cron: "17 5,10,15,20 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-news
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Hämta nyheter
+        run: python scripts/fetch_news.py
+
+      - name: Spara news.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add news.json
+          if git diff --cached --quiet; then
+            echo "Inget nytt."
+          else
+            git commit -m "Uppdatera nyheter"
+            git push
+          fi

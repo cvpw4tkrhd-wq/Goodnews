@@ -1,0 +1,15 @@
+{
+  "name": "Ljusglimtar – goda nyheter",
+  "short_name": "Ljusglimtar",
+  "description": "Bara positiva nyheter, uppdaterade några gånger per dag.",
+  "lang": "sv",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fbf6ec",
+  "theme_color": "#fbf6ec",
+  "icons": [
+    { "src": "icon-180.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

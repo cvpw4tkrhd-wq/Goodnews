@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ljusglimtar – goda nyheter</title>
+<meta name="description" content="Bara positiva nyheter, uppdaterade några gånger per dag.">
+<meta name="theme-color" content="#fbf6ec" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#17150f" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Ljusglimtar">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="icon" href="icon-180.png">
+<style>
+:root {
+  --bg: #fbf6ec; --card: #fffdf8; --ink: #2a2418; --muted: #7b705c; --line: #eadfca;
+  --sun: #e8912d; --sun-soft: #fde9c9; --sun-ink: #8a4b06; --shadow: 0 1px 2px rgba(80,60,20,.06), 0 8px 24px rgba(80,60,20,.07);
+  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #17150f; --card: #211e16; --ink: #f3ecdc; --muted: #a59a83; --line: #353024;
+    --sun: #f2a640; --sun-soft: #3a2c12; --sun-ink: #f7c77d; --shadow: none;
+  }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--bg); color: var(--ink); font-family: var(--sans);
+  line-height: 1.45; -webkit-font-smoothing: antialiased;
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+}
+main, header { max-width: 680px; margin: 0 auto; padding: 0 16px; }
+header { padding-top: 22px; }
+.brand { display: flex; align-items: center; gap: 10px; }
+.brand svg { flex: none; }
+h1 { font-family: var(--serif); font-size: 30px; font-weight: 600; letter-spacing: -.01em; margin: 0; }
+.sub { color: var(--muted); font-size: 14px; margin: 4px 0 0; min-height: 20px; }
+.refresh {
+  margin-left: auto; width: 44px; height: 44px; border-radius: 50%; border: 1px solid var(--line);
+  background: var(--card); color: var(--ink); display: grid; place-items: center; cursor: pointer;
+}
+.refresh.spin svg { animation: spin .8s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.chips {
+  position: sticky; top: 0; z-index: 5; background: var(--bg);
+  display: flex; gap: 8px; overflow-x: auto; padding: 14px 16px 12px; margin: 6px -16px 4px;
+  scrollbar-width: none; -webkit-overflow-scrolling: touch;
+}
+.chips::-webkit-scrollbar { display: none; }
+.chip {
+  flex: none; font: inherit; font-size: 14px; padding: 8px 14px; min-height: 38px; border-radius: 999px;
+  border: 1px solid var(--line); background: var(--card); color: var(--ink); cursor: pointer; white-space: nowrap;
+}
+.chip[aria-pressed="true"] { background: var(--sun); border-color: var(--sun); color: #2a1a02; font-weight: 600; }
+
+.eyebrow { font-size: 12px; letter-spacing: .09em; text-transform: uppercase; color: var(--sun-ink); font-weight: 700; margin: 0 0 8px; }
+.card {
+  position: relative; background: var(--card); border: 1px solid var(--line); border-radius: 18px;
+  box-shadow: var(--shadow); overflow: hidden; margin: 0 0 14px;
+}
+.card a.main { display: block; color: inherit; text-decoration: none; }
+.card img { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; background: var(--sun-soft); }
+.body { padding: 14px 56px 14px 16px; }
+.card h2 { font-family: var(--serif); font-size: 19px; line-height: 1.25; font-weight: 600; margin: 0 0 6px; text-wrap: balance; }
+.card p { margin: 0 0 10px; font-size: 15px; color: var(--muted); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.meta { font-size: 13px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 4px 8px; align-items: center; }
+.meta b { color: var(--ink); font-weight: 600; }
+.tag { background: var(--sun-soft); color: var(--sun-ink); border-radius: 999px; padding: 1px 8px; font-size: 12px; }
+.new { width: 8px; height: 8px; border-radius: 50%; background: var(--sun); display: inline-block; }
+.hero { border-color: var(--sun); }
+.hero h2 { font-size: 24px; }
+.hero .body { padding-top: 16px; }
+.fav {
+  position: absolute; right: 6px; bottom: 6px; width: 44px; height: 44px; border: 0; background: none;
+  color: var(--muted); cursor: pointer; display: grid; place-items: center; border-radius: 50%;
+}
+.fav[aria-pressed="true"] { color: var(--sun); }
+.fav[aria-pressed="true"] svg { fill: currentColor; }
+a:focus-visible, button:focus-visible { outline: 3px solid var(--sun); outline-offset: 2px; }
+
+.end, .empty { text-align: center; color: var(--muted); padding: 26px 10px 8px; font-size: 15px; }
+.end strong, .empty strong { display: block; font-family: var(--serif); font-size: 20px; color: var(--ink); font-weight: 600; margin-top: 6px; }
+details { margin: 22px 0 40px; border-top: 1px solid var(--line); padding-top: 14px; font-size: 14px; color: var(--muted); }
+summary { cursor: pointer; padding: 8px 0; color: var(--ink); font-weight: 600; }
+details ul { list-style: none; padding: 0; margin: 6px 0 0; }
+details li { display: flex; justify-content: space-between; gap: 12px; padding: 7px 0; border-bottom: 1px solid var(--line); }
+details a { color: var(--ink); }
+.dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 8px; background: #58a55c; }
+.dot.off { background: #c9bfa9; }
+@media (prefers-reduced-motion: reduce) { .refresh.spin svg { animation: none; } }
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">
+    <svg width="34" height="34" viewBox="0 0 34 34" aria-hidden="true">
+      <circle cx="17" cy="20" r="8" fill="#e8912d"/>
+      <g stroke="#e8912d" stroke-width="2.4" stroke-linecap="round">
+        <path d="M17 4v4M5.5 9.5l2.8 2.8M28.5 9.5l-2.8 2.8M2 21h4M28 21h4"/>
+      </g>
+      <path d="M2 28h30" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>
+    </svg>
+    <h1>Ljusglimtar</h1>
+    <button class="refresh" id="refresh" aria-label="Uppdatera">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a9 9 0 1 1-2.6-6.4"/><path d="M21 4v5h-5"/></svg>
+    </button>
+  </div>
+  <p class="sub" id="status" aria-live="polite">Hämtar goda nyheter…</p>
+</header>
+
+<main>
+  <nav class="chips" id="chips" aria-label="Filter"></nav>
+  <div id="feed"></div>
+  <details id="sources">
+    <summary>Källor</summary>
+    <ul id="sourceList"></ul>
+    <p>Nyheterna hämtas automatiskt några gånger per dag. Varje nyhet öppnas hos den källa som har skrivit den.</p>
+  </details>
+</main>
+
+<script>
+(function () {
+  "use strict";
+  var FILTERS = [
+    ["alla", "Alla"], ["sv", "På svenska"], ["en", "In English"], ["klimat", "Klimat & natur"],
+    ["vetenskap", "Vetenskap"], ["halsa", "Hälsa"], ["djur", "Djur"], ["manniskor", "Människor"], ["sparade", "★ Sparade"]
+  ];
+  var CAT_NAMES = { klimat: "Klimat & natur", vetenskap: "Vetenskap", halsa: "Hälsa", djur: "Djur", manniskor: "Människor" };
+  var $ = function (id) { return document.getElementById(id); };
+  var store = {
+    get: function (k, d) { try { var v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch (e) { return d; } },
+    set: function (k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
+  };
+  var data = { items: [], sources: [], updated: null };
+  var filter = store.get("lg-filter", "alla");
+  var saved = store.get("lg-saved", {});          // id -> sparad nyhet
+  var lastVisit = store.get("lg-visit", 0);        // för "ny"-prickar
+  store.set("lg-visit", Date.now());
+
+  function el(tag, attrs, kids) {
+    var n = document.createElement(tag);
+    for (var k in attrs || {}) {
+      if (k === "text") n.textContent = attrs[k]; else n.setAttribute(k, attrs[k]);
+    }
+    (kids || []).forEach(function (c) { if (c) n.appendChild(c); });
+    return n;
+  }
+  function safeUrl(u) { return /^https?:\/\//i.test(u || "") ? u : ""; }
+  function ago(iso) {
+    var m = Math.round((Date.now() - new Date(iso).getTime()) / 60000);
+    if (isNaN(m)) return "";
+    if (m < 1) return "nyss";
+    if (m < 60) return m + " min sedan";
+    var h = Math.round(m / 60);
+    if (h < 24) return h + " tim sedan";
+    var d = Math.round(h / 24);
+    if (d === 1) return "i går";
+    if (d < 7) return d + " dagar sedan";
+    return new Date(iso).toLocaleDateString("sv-SE", { day: "numeric", month: "short" });
+  }
+
+  function card(it, hero) {
+    var url = safeUrl(it.url);
+    var img = safeUrl(it.image);
+    var a = el("a", { class: "main", href: url || "#", target: "_blank", rel: "noopener noreferrer", lang: it.lang || "sv" });
+    if (img) {
+      var im = el("img", { src: img, alt: "", loading: hero ? "eager" : "lazy", decoding: "async", referrerpolicy: "no-referrer" });
+      im.addEventListener("error", function () { im.remove(); });
+      a.appendChild(im);
+    }
+    var meta = el("div", { class: "meta" }, [
+      new Date(it.date).getTime() > lastVisit && lastVisit ? el("span", { class: "new", title: "Ny sedan sist" }) : null,
+      el("b", { text: it.source }),
+      el("span", { text: "· " + ago(it.date) }),
+      CAT_NAMES[it.cat] ? el("span", { class: "tag", text: CAT_NAMES[it.cat] }) : null
+    ]);
+    a.appendChild(el("div", { class: "body" }, [
+      hero ? el("div", { class: "eyebrow", text: "Dagens ljusglimt" }) : null,
+      el("h2", { text: it.title }),
+      it.summary ? el("p", { text: it.summary }) : null,
+      meta
+    ]));
+    var on = !!saved[it.id];
+    var fav = el("button", { class: "fav", "aria-pressed": String(on), "aria-label": on ? "Ta bort från sparade" : "Spara" });
+    fav.innerHTML = '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="M12 3.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.2-4.1 5.8-.8z"/></svg>';
+    fav.addEventListener("click", function () {
+      if (saved[it.id]) delete saved[it.id]; else saved[it.id] = it;
+      store.set("lg-saved", saved);
+      if (filter === "sparade") render();
+      else {
+        var now = !!saved[it.id];
+        fav.setAttribute("aria-pressed", String(now));
+        fav.setAttribute("aria-label", now ? "Ta bort från sparade" : "Spara");
+      }
+    });
+    return el("article", { class: "card" + (hero ? " hero" : "") }, [a, fav]);
+  }
+
+  function visible() {
+    if (filter === "sparade") {
+      return Object.keys(saved).map(function (k) { return saved[k]; })
+        .sort(function (a, b) { return a.date < b.date ? 1 : -1; });
+    }
+    return data.items.filter(function (it) {
+      return filter === "alla" || it.lang === filter || it.cat === filter;
+    });
+  }
+
+  function render() {
+    var chips = $("chips");
+    chips.textContent = "";
+    FILTERS.forEach(function (f) {
+      var b = el("button", { class: "chip", "aria-pressed": String(filter === f[0]), text: f[1] });
+      b.addEventListener("click", function () {
+        filter = f[0]; store.set("lg-filter", filter); render(); window.scrollTo(0, 0);
+      });
+      chips.appendChild(b);
+    });
+
+    var feed = $("feed");
+    feed.textContent = "";
+    var list = visible();
+    if (!list.length) {
+      feed.appendChild(el("div", { class: "empty" }, [
+        el("span", { text: filter === "sparade" ? "Tryck på stjärnan på en nyhet för att spara den." : "Inga nyheter här just nu." }),
+        el("strong", { text: filter === "sparade" ? "Inget sparat ännu" : "Titta in igen om en stund" })
+      ]));
+    } else {
+      var heroIdx = -1;
+      if (filter !== "sparade") {
+        // Dagens ljusglimt: den nyaste nyheten som har bild.
+        for (var i = 0; i < list.length && i < 8; i++) if (safeUrl(list[i].image)) { heroIdx = i; break; }
+        if (heroIdx < 0) heroIdx = 0;
+        feed.appendChild(card(list[heroIdx], true));
+      }
+      list.forEach(function (it, i) { if (i !== heroIdx) feed.appendChild(card(it, false)); });
+      feed.appendChild(el("div", { class: "end" }, [
+        el("span", { text: "☀" }), el("strong", { text: "Du är ikapp" }),
+        el("span", { text: list.length + " goda nyheter. Mer kommer senare i dag." })
+      ]));
+    }
+
+    var ul = $("sourceList");
+    ul.textContent = "";
+    (data.sources || []).forEach(function (s) {
+      var name = el("span", {}, [el("span", { class: "dot" + (s.ok ? "" : " off") })]);
+      var site = safeUrl(s.site);
+      name.appendChild(site ? el("a", { href: site, target: "_blank", rel: "noopener noreferrer", text: s.name }) : el("span", { text: s.name }));
+      ul.appendChild(el("li", {}, [name, el("span", { text: s.ok ? s.count + " nyheter" : "ingen kontakt" })]));
+    });
+  }
+
+  function setStatus(offline) {
+    if (!data.updated) { $("status").textContent = "Inga nyheter hämtade ännu."; return; }
+    $("status").textContent = "Uppdaterad " + ago(data.updated) + (offline ? " · visar sparad version" : "");
+  }
+
+  function load() {
+    var btn = $("refresh");
+    btn.classList.add("spin");
+    return fetch("news.json?t=" + Date.now(), { cache: "no-store" })
+      .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(function (j) {
+        data = { items: j.items || [], sources: j.sources || [], updated: j.updated || null };
+        store.set("lg-cache", data);
+        render(); setStatus(false);
+      })
+      .catch(function () {
+        var c = store.get("lg-cache", null);
+        if (c) data = c;
+        render(); setStatus(true);
+        if (!c) $("status").textContent = "Kunde inte hämta nyheterna. Försök igen om en stund.";
+      })
+      .then(function () { btn.classList.remove("spin"); });
+  }
+
+  $("refresh").addEventListener("click", load);
+  document.addEventListener("visibilitychange", function () {
+    if (!document.hidden && data.updated && Date.now() - new Date(data.updated).getTime() > 30 * 60000) load();
+  });
+  render();
+  load();
+  if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(function () {});
+})();
+</script>
+</body>
+</html>
