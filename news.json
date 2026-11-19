@@ -1,6 +1,114 @@
 {
- "updated": "2026-11-18T22:36:27Z",
+ "updated": "2026-11-19T14:26:09Z",
  "items": [
+  {
+   "id": "16a37e6086f3",
+   "title": "Empire State Building Lit Up with Gold to Celebrate NASA Spacecraft Passing One Light-Day from Earth",
+   "summary": "This week the Empire State Building was illuminated in gold to celebrate NASA’s Voyager 1 spacecraft passing one light-day away from Earth. It now takes the farthest man-made object from Earth 24 hours to send a signal back to NASA…",
+   "excerpt": "This week the Empire State Building was illuminated in gold to celebrate NASA’s Voyager 1 spacecraft passing one light-day away from Earth. It now takes the farthest man-made object from Earth 24 hours to send a signal back to NASA headquarters. “The color gold is emblematic of the gold-plated copper phonograph record that is flying …",
+   "url": "https://www.goodnewsnetwork.org/empire-state-building-lit-up-with-gold-to-celebrate-nasa-spacecraft-passing-one-light-day-from-earth/",
+   "image": "",
+   "source": "Good News Network",
+   "lang": "en",
+   "cat": "vetenskap",
+   "date": "2026-11-19T14:00:49Z"
+  },
+  {
+   "id": "9573fcfad88a",
+   "title": "Over 100 Cave Bear Skeletons Found in ‘Sensational’ Discovery by Alpine Guide",
+   "summary": "The “sensational” discovery of a cave containing the skeletons of over 100 extinct cave bears has been revealed by local authorities. Kept secret to prevent looting, the incredible assemblage of thousands of bones will remain tucked away…",
+   "excerpt": "The “sensational” discovery of a cave containing the skeletons of over 100 extinct cave bears has been revealed by local authorities. Kept secret to prevent looting, the incredible assemblage of thousands of bones will remain tucked away behind iron bars until the spring thaw when an interdisciplinary team of scientists will begin studying them. Discovered …",
+   "url": "https://www.goodnewsnetwork.org/over-100-cave-bear-skeletons-found-in-sensational-discovery-by-alpine-guide/",
+   "image": "",
+   "source": "Good News Network",
+   "lang": "en",
+   "cat": "vetenskap",
+   "date": "2026-11-19T12:30:10Z"
+  },
+  {
+   "id": "4b6758f48f5d",
+   "title": "The Waterless, Hyper-Efficient Machines That Clean Clothes With Carbon Dioxide",
+   "summary": "This story was originally published by Grist. Sign up for Grist’s weekly newsletter here. Doing the laundry has grown easier and more efficient over the years, yet two things have always remained the same: A washing machine needs water…",
+   "excerpt": "This story was originally published by Grist. Sign up for Grist’s weekly newsletter here. Doing the laundry has grown easier and more efficient over the years, yet two things have always remained the same: A washing machine needs water, and a dryer needs heat. Technology designed to clean aerospace parts...",
+   "url": "https://reasonstobecheerful.world/carbon-dioxide-laundry-machine/",
+   "image": "https://reasonstobecheerful.world/wp-content/uploads/2026/11/tersus-solutions-CO2-carbon-dioxide-laundry-washing-machine-LG-Samsung-clothes.webp",
+   "source": "Reasons to be Cheerful",
+   "lang": "en",
+   "cat": "klimat",
+   "date": "2026-11-19T08:00:13Z"
+  },
+  {
+   "id": "0a3964a85a0d",
+   "title": "Good News Thursday",
+   "summary": "Today's tasty bite-sized chunks of upbeat news.",
+   "excerpt": "Today's tasty bite-sized chunks of upbeat news.",
+   "url": "https://www.onlygoodnewsdaily.com/post/good-news-only-19-nov-2026",
+   "image": "https://static.wixstatic.com/media/a06f21_20a011b4143942a8bcaae03d26ea956a~mv2.jpg/v1/fit/w_534,h_366,al_c,q_80/file.png",
+   "source": "Only Good News Daily",
+   "lang": "en",
+   "cat": "ovrigt",
+   "date": "2026-11-19T06:45:02Z"
+  },
+  {
+   "id": "7f5cad2c9451",
+   "title": "Earthshot Prize Winners 2026",
+   "summary": "The Prince and Princess of Wales have said environmental innovators are changing the lives of future generations as they celebrated this year's winners of the Earthshot Prize at a ceremony in Mumbai, India.",
+   "excerpt": "The Prince and Princess of Wales have said environmental innovators are changing the lives of future generations as they celebrated this year's winners of the Earthshot Prize at a ceremony in Mumbai, India.",
+   "url": "https://www.onlygoodnewsdaily.com/post/earthshot-prize-winners-2026",
+   "image": "https://static.wixstatic.com/media/a06f21_9a271ef261f541ef8c43008ac62f18bd~mv2.jpg/v1/fit/w_401,h_329,al_c,q_80/file.png",
+   "source": "Only Good News Daily",
+   "lang": "en",
+   "cat": "ovrigt",
+   "date": "2026-11-19T06:30:02Z"
+  },
+  {
+   "id": "54e7b6ca367f",
+   "title": "Headliners For Glastonbury 2027 Announced",
+   "summary": "Cher, the veteran US pop icon will play the coveted Sunday afternoon \"legends\" slot, which is often considered a fourth headline set. But who else in on the roster?",
+   "excerpt": "Cher, the veteran US pop icon will play the coveted Sunday afternoon \"legends\" slot, which is often considered a fourth headline set. But who else in on the roster?",
+   "url": "https://www.onlygoodnewsdaily.com/post/headliners-for-glastonbury-2027-announced",
+   "image": "https://static.wixstatic.com/media/a06f21_666ba486a7fa436b9d7f89fb1d451053~mv2.jpg/v1/fit/w_1000,h_1000,al_c,q_80/file.png",
+   "source": "Only Good News Daily",
+   "lang": "en",
+   "cat": "ovrigt",
+   "date": "2026-11-19T06:15:02Z"
+  },
+  {
+   "id": "f569cc956cc5",
+   "title": "World’s First eVTOL Electric Flying Police Vehicle",
+   "summary": "Police in Florida just took delivery of a Jetson One.",
+   "excerpt": "Police in Florida just took delivery of a Jetson One.",
+   "url": "https://www.onlygoodnewsdaily.com/post/world-s-first-evtol-electric-flying-police-vehicle",
+   "image": "https://static.wixstatic.com/media/a06f21_ca7ab63dcf144430b3489e05985d6567~mv2.jpg/v1/fit/w_892,h_720,al_c,q_80/file.png",
+   "source": "Only Good News Daily",
+   "lang": "en",
+   "cat": "ovrigt",
+   "date": "2026-11-19T06:00:05Z"
+  },
+  {
+   "id": "f2fde0ac67bb",
+   "title": "Bans cut two forever chemicals by 30 percent in England’s rivers",
+   "summary": "BY THE OPTIMIST DAILY EDITORIAL TEAM Concentrations of PFOS and PFOA, the two most toxic forever chemicals, have fallen by 30 percent and 29 percent in England’s rivers over the past 10 years, according to new figures from the Environment…",
+   "excerpt": "BY THE OPTIMIST DAILY EDITORIAL TEAM Concentrations of PFOS and PFOA, the two most toxic forever chemicals, have fallen by 30 percent and 29 percent in England’s rivers over the past 10 years, according to new figures from the Environment Agency (EA). In freshwater fish, levels are down 49 percent. The agency attributes the decline … The post Bans cut two forever chemicals by 30 percent in England’s rivers first appeared on The Optimist Daily: Making Solutions the News .",
+   "url": "https://www.optimistdaily.com/2026/11/bans-cut-two-forever-chemicals-by-30-percent-in-englands-rivers/",
+   "image": "https://www.optimistdaily.com/wp-content/uploads/water-drops-pfas-text-forever-Depositphotos_739563806_S.jpg",
+   "source": "The Optimist Daily",
+   "lang": "en",
+   "cat": "ovrigt",
+   "date": "2026-11-19T00:00:51Z"
+  },
+  {
+   "id": "9ba177b0163b",
+   "title": "Dreading plans you made yourself? There’s a name for that feeling",
+   "summary": "BY THE OPTIMIST DAILY EDITORIAL TEAM It’s 6 p.m. on a Friday, and the dinner you booked two weeks ago is in an hour. Back then it sounded like the perfect plan. But now your couch has never looked softer, your sweatpants feel like a hug…",
+   "excerpt": "BY THE OPTIMIST DAILY EDITORIAL TEAM It’s 6 p.m. on a Friday, and the dinner you booked two weeks ago is in an hour. Back then it sounded like the perfect plan. But now your couch has never looked softer, your sweatpants feel like a hug, and your thumb is hovering over a message that … The post Dreading plans you made yourself? There’s a name for that feeling first appeared on The Optimist Daily: Making Solutions the News .",
+   "url": "https://www.optimistdaily.com/2026/11/dreading-plans-you-made-yourself-theres-a-name-for-that-feeling/",
+   "image": "https://www.optimistdaily.com/wp-content/uploads/girl-has-stomach-pain-lies-Depositphotos_718846914_S.jpg",
+   "source": "The Optimist Daily",
+   "lang": "en",
+   "cat": "ovrigt",
+   "date": "2026-11-19T00:00:22Z"
+  },
   {
    "id": "d3f0c8986cab",
    "title": "Students Fighting to Save Poached Plant Species That Only Exists in Near Their Campus",
@@ -326,18 +434,6 @@
    "date": "2026-11-16T17:53:37Z"
   },
   {
-   "id": "5a72fd612016",
-   "title": "30% Drop in Levels of Forever Chemicals in England’s Rivers, 49% in Fish – ‘Brilliant to See’",
-   "summary": "2 prominent chemical compounds prohibited under international law over health concerns are being found at substantially lower concentrations in England’s rivers. Concentrations of these so-called ‘forever chemicals’ falling 30% in water…",
-   "excerpt": "2 prominent chemical compounds prohibited under international law over health concerns are being found at substantially lower concentrations in England’s rivers. Concentrations of these so-called ‘forever chemicals’ falling 30% in water and 49% in fish was “brilliant to see,” one researcher told the BBC, saying it was a marker for “how far we have come.” …",
-   "url": "https://www.goodnewsnetwork.org/30-drop-in-levels-of-forever-chemicals-in-englands-rivers-49-in-fish-brilliant-to-see/",
-   "image": "",
-   "source": "Good News Network",
-   "lang": "en",
-   "cat": "halsa",
-   "date": "2026-11-16T16:30:13Z"
-  },
-  {
    "id": "a91bf7b23cb8",
    "title": "Italy hits Meta with an €805 million fine, Calabria offers ten years of rent-free living, New testing method detects date rape drugs for longer",
    "summary": "Good News to kick off the week: find out today how Brussels and Italy are strengthening our digital rights, and why free housing is coming soon to Calabria. Dive in now!",
@@ -350,18 +446,6 @@
    "date": "2026-11-16T14:05:32Z"
   },
   {
-   "id": "317087c4d90a",
-   "title": "Tokyo Tackles Trash Troubles with New Generation of Robotic Street Waste Bins",
-   "summary": "A new generation of trash bins are aimed at conserving Japanese civic culture while addressing one of the country’s largest tourism headaches. Solar-powered compactors and robots that haul trash away from key tourist areas are two such…",
-   "excerpt": "A new generation of trash bins are aimed at conserving Japanese civic culture while addressing one of the country’s largest tourism headaches. Solar-powered compactors and robots that haul trash away from key tourist areas are two such solutions already receiving a positive response. If you’ve ever visited Japan, you too may have been left confused …",
-   "url": "https://www.goodnewsnetwork.org/tokyo-tackles-trash-troubles-with-new-generation-of-robotic-street-waste-bins/",
-   "image": "",
-   "source": "Good News Network",
-   "lang": "en",
-   "cat": "klimat",
-   "date": "2026-11-16T14:00:03Z"
-  },
-  {
    "id": "1a307321148e",
    "title": "Can Barbershops Turn Trust Into Better Health for Black Men?",
    "summary": "It is a Tuesday morning at Against Da Grain, a barbershop on a quiet street on Staten Island’s North Shore. Owner Sean White is rounding off a cut for a middle-aged Black man while another customer waits nearby. Around them, hairstylists…",
@@ -372,54 +456,6 @@
    "lang": "en",
    "cat": "halsa",
    "date": "2026-11-16T08:00:15Z"
-  },
-  {
-   "id": "bec1792681f9",
-   "title": "Upbeat News Monday",
-   "summary": "Kicking off the week with a global selection of upbeat news nuggets.",
-   "excerpt": "Kicking off the week with a global selection of upbeat news nuggets.",
-   "url": "https://www.onlygoodnewsdaily.com/post/global-upbeat-news-stories-today",
-   "image": "https://static.wixstatic.com/media/a06f21_30437fff89ea46a49038b41d115ffeb7~mv2.jpg/v1/fit/w_1000,h_800,al_c,q_80/file.png",
-   "source": "Only Good News Daily",
-   "lang": "en",
-   "cat": "ovrigt",
-   "date": "2026-11-16T06:45:02Z"
-  },
-  {
-   "id": "6871f3008367",
-   "title": "Look Inside Cunard’s Revamped Queen Victoria Cruise Ship",
-   "summary": "Cunard has unveiled the first images of Queen Victoria following an extensive transformation, giving travellers their first look at how one of the line’s most familiar ships has changed.",
-   "excerpt": "Cunard has unveiled the first images of Queen Victoria following an extensive transformation, giving travellers their first look at how one of the line’s most familiar ships has changed.",
-   "url": "https://www.onlygoodnewsdaily.com/post/look-inside-cunard-s-revamped-queen-victoria-cruise-ship",
-   "image": "https://static.wixstatic.com/media/a06f21_8ecf10606e1a43a099774ffe653169fb~mv2.jpg/v1/fit/w_1000,h_1000,al_c,q_80/file.png",
-   "source": "Only Good News Daily",
-   "lang": "en",
-   "cat": "ovrigt",
-   "date": "2026-11-16T06:30:02Z"
-  },
-  {
-   "id": "ba0887f76408",
-   "title": "Garbage Collectors Help Find Binned €1m Lottery Ticket",
-   "summary": "A lottery player who accidentally binned a €1m ($1.3m) winning ticket may be the luckiest person (twice!) in Italy after refuse workers found the missing slip.",
-   "excerpt": "A lottery player who accidentally binned a €1m ($1.3m) winning ticket may be the luckiest person (twice!) in Italy after refuse workers found the missing slip.",
-   "url": "https://www.onlygoodnewsdaily.com/post/garbage-collectors-help-find-binned-1m-lottery-ticket",
-   "image": "https://static.wixstatic.com/media/a06f21_49f2199ec20a4ae5b298b27240216c7e~mv2.webp/v1/fit/w_976,h_548,al_c,q_80/file.png",
-   "source": "Only Good News Daily",
-   "lang": "en",
-   "cat": "ovrigt",
-   "date": "2026-11-16T06:15:01Z"
-  },
-  {
-   "id": "7dc938911b26",
-   "title": "Chimney Express: New Feat in Human Flight",
-   "summary": "Base jumpers hurtle into the sky on this extraordinary human catapult.",
-   "excerpt": "Base jumpers hurtle into the sky on this extraordinary human catapult.",
-   "url": "https://www.onlygoodnewsdaily.com/post/chimney-express-new-feat-in-human-flight",
-   "image": "https://static.wixstatic.com/media/a06f21_3985e6de1f9c40ef8df1e817a8637cc5~mv2.jpg/v1/fit/w_1000,h_903,al_c,q_80/file.png",
-   "source": "Only Good News Daily",
-   "lang": "en",
-   "cat": "djur",
-   "date": "2026-11-16T06:00:06Z"
   },
   {
    "id": "c642f7b6155b",
@@ -480,18 +516,6 @@
    "lang": "en",
    "cat": "ovrigt",
    "date": "2026-11-13T08:00:12Z"
-  },
-  {
-   "id": "7e74666257a3",
-   "title": "For every anti-trans bill that passed in 2026, seven times as many failed: ‘It’s grueling work, but it makes a difference’",
-   "summary": "In 2025 and 2026, efforts to roll back LGBTQ+ rights were repeatedly stalled — or stamped out altogether.",
-   "excerpt": "In 2025 and 2026, efforts to roll back LGBTQ+ rights were repeatedly stalled — or stamped out altogether.",
-   "url": "https://www.goodgoodgood.co/articles/anti-trans-rhetoric-bills-government-advocacy",
-   "image": "https://cdn.prod.website-files.com/6ac7f2e22eaacd2873850a17/6af4d91800205f0d5aeaf6ab_6af4be2c0102ccc29f50e57a_6af4be2b1c762d41c1ffb6c3_anti-trans-rhetoric-bills-government-advocacy-featured.webp",
-   "source": "Good Good Good",
-   "lang": "en",
-   "cat": "ovrigt",
-   "date": "2026-11-12T14:15:00Z"
   },
   {
    "id": "64250d6a0a1b",
@@ -672,7 +696,7 @@
    "site": "https://www.goodgoodgood.co/",
    "lang": "en",
    "ok": true,
-   "count": 3,
+   "count": 2,
    "error": ""
   },
   {
@@ -680,7 +704,7 @@
    "site": "https://reasonstobecheerful.world/",
    "lang": "en",
    "ok": true,
-   "count": 9,
+   "count": 10,
    "error": ""
   },
   {
@@ -688,7 +712,7 @@
    "site": "https://www.optimistdaily.com/",
    "lang": "en",
    "ok": true,
-   "count": 6,
+   "count": 8,
    "error": ""
   },
   {
