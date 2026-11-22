@@ -1,9 +1,21 @@
 {
- "updated": "2026-11-21T20:54:27Z",
+ "updated": "2026-11-22T13:21:38Z",
  "items": [
   {
+   "id": "cbe4ce6a8f79",
+   "title": "House Ethics changes how it handles sexual misconduct allegations, with more transparency and speed",
+   "summary": "The changes include codifying the committee’s policy of publicly disclosing when members have been found to have engaged in sexual harassment or sexual misconduct.",
+   "excerpt": "The changes include codifying the committee’s policy of publicly disclosing when members have been found to have engaged in sexual harassment or sexual misconduct.",
+   "url": "https://www.goodgoodgood.co/articles/house-ethics-sexual-misconduct",
+   "image": "https://cdn.prod.website-files.com/6ac7f2e22eaacd2873850a17/6b02061ea227073b4278d48d_6b02061d51c692cbe6b5f78a_2230706526-6faabb64fc-o-featured.webp",
+   "source": "Good Good Good",
+   "lang": "en",
+   "cat": "ovrigt",
+   "date": "2026-11-21T20:59:00Z"
+  },
+  {
    "id": "02b657a45b89",
-   "title": "'GTA 6' is introducing a new kind of mission: being a good partner",
+   "title": "‘GTA 6’ is introducing a new kind of mission: being a good partner",
    "summary": "A video game that has often been the center of controversy over its content is challenging the franchise’s hypermasculine traditions around gender and relationships.",
    "excerpt": "A video game that has often been the center of controversy over its content is challenging the franchise’s hypermasculine traditions around gender and relationships.",
    "url": "https://www.goodgoodgood.co/articles/gta-be-a-good-partner",
@@ -62,11 +74,11 @@
    "date": "2026-11-21T13:00:00Z"
   },
   {
-   "id": "47a31842a7c4",
+   "id": "ecabf50d36a8",
    "title": "33 Kids Wrote Letters to a Wounded Veteran. 60 Years Later, His Son Is Searching to Thank Each One",
    "summary": "In 1967, 33 Massachusetts schoolchildren were given a project: write a letter to a Navy corpsman they had never met who was wounded in Vietnam. None of them had any idea of the impact their letters had on the veteran, until his son, almost…",
    "excerpt": "In 1967, 33 Massachusetts schoolchildren were given a project: write a letter to a Navy corpsman they had never met who was wounded in Vietnam. None of them had any idea of the impact their letters had on the veteran, until his son, almost 60 years later, began searching them out. “I just needed to …",
-   "url": "https://www.goodnewsnetwork.org/__trashed-70/",
+   "url": "https://www.goodnewsnetwork.org/dave-jacobson-letters-from-gloucester-project/",
    "image": "",
    "source": "Good News Network",
    "lang": "en",
@@ -518,30 +530,6 @@
    "date": "2026-11-17T08:00:02Z"
   },
   {
-   "id": "1a531502045d",
-   "title": "The Greek coastline cleanup that turned trash into a pollution map",
-   "summary": "BY THE OPTIMIST DAILY EDITORIAL TEAM At some point in the past three decades, a beer can printed with a Spanish-language ad for a 1990s World Cup washed up on Patroklos, a small islet in the Saronic Gulf about 65 nautical miles (75 miles)…",
-   "excerpt": "BY THE OPTIMIST DAILY EDITORIAL TEAM At some point in the past three decades, a beer can printed with a Spanish-language ad for a 1990s World Cup washed up on Patroklos, a small islet in the Saronic Gulf about 65 nautical miles (75 miles) from Athens. No swimmer left it there. Like most of what … The post The Greek coastline cleanup that turned trash into a pollution map first appeared on The Optimist Daily: Making Solutions the News .",
-   "url": "https://www.optimistdaily.com/2026/11/the-greek-coastline-cleanup-that-turned-trash-into-a-pollution-map/",
-   "image": "https://www.optimistdaily.com/wp-content/uploads/beautiful-greek-coastline-and-seascape-Depositphotos_126144814_S.jpg",
-   "source": "The Optimist Daily",
-   "lang": "en",
-   "cat": "ovrigt",
-   "date": "2026-11-17T00:00:25Z"
-  },
-  {
-   "id": "cf2c52bc6bb4",
-   "title": "Animal welfare ballot measures had a strong night in the 2026 midterms",
-   "summary": "BY THE OPTIMIST DAILY EDITORIAL TEAM Very few Americans have ever eaten foie gras. It’s a niche luxury, served mostly in high-end restaurants, and yet on November 3 it produced some of the most lopsided results of the night in two American…",
-   "excerpt": "BY THE OPTIMIST DAILY EDITORIAL TEAM Very few Americans have ever eaten foie gras. It’s a niche luxury, served mostly in high-end restaurants, and yet on November 3 it produced some of the most lopsided results of the night in two American cities. In Washington, DC, 73 percent of voters backed a ban on selling … The post Animal welfare ballot measures had a strong night in the 2026 midterms first appeared on The Optimist Daily: Making Solutions the News .",
-   "url": "https://www.optimistdaily.com/2026/11/animal-welfare-ballot-measures-had-a-strong-night-in-the-2026-midterms/",
-   "image": "https://www.optimistdaily.com/wp-content/uploads/domestic-ducks-poultry-pen-farm-Depositphotos_480939168_S.jpg",
-   "source": "The Optimist Daily",
-   "lang": "en",
-   "cat": "djur",
-   "date": "2026-11-17T00:00:24Z"
-  },
-  {
    "id": "a91bf7b23cb8",
    "title": "Italy hits Meta with an €805 million fine, Calabria offers ten years of rent-free living, New testing method detects date rape drugs for longer",
    "summary": "Good News to kick off the week: find out today how Brussels and Italy are strengthening our digital rights, and why free housing is coming soon to Calabria. Dive in now!",
@@ -720,7 +708,7 @@
    "site": "https://www.goodgoodgood.co/",
    "lang": "en",
    "ok": true,
-   "count": 6,
+   "count": 7,
    "error": ""
   },
   {
@@ -736,7 +724,7 @@
    "site": "https://www.optimistdaily.com/",
    "lang": "en",
    "ok": true,
-   "count": 8,
+   "count": 6,
    "error": ""
   },
   {
