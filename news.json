@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T15:16:46Z",
+ "updated": "2026-11-26T23:54:31Z",
  "items": [
   {
    "id": "6a1283c91e7a",
@@ -578,18 +578,6 @@
    "date": "2026-11-20T08:00:05Z"
   },
   {
-   "id": "e4dca472fe04",
-   "title": "Allison Raskin’s newest rom-com novel sends hope to those struggling with OCD: ‘You can still get your happy ending’",
-   "summary": "In her sixth book, “Compulsively Yours,” Allison Raskin breaks new ground in the world of rom-com literature.",
-   "excerpt": "In her sixth book, “Compulsively Yours,” Allison Raskin breaks new ground in the world of rom-com literature.",
-   "url": "https://www.goodgoodgood.co/articles/allison-raskin-ocd-compulsively-yours-romcom",
-   "image": "https://cdn.prod.website-files.com/6ac7f2e22eaacd2873850a17/6aff5e8d8fa1068542a1b154_allison-raskin-compulsively-yours.png",
-   "source": "Good Good Good",
-   "lang": "en",
-   "cat": "ovrigt",
-   "date": "2026-11-19T23:08:00Z"
-  },
-  {
    "id": "4b6758f48f5d",
    "title": "The Waterless, Hyper-Efficient Machines That Clean Clothes With Carbon Dioxide",
    "summary": "This story was originally published by Grist. Sign up for Grist’s weekly newsletter here. Doing the laundry has grown easier and more efficient over the years, yet two things have always remained the same: A washing machine needs water…",
@@ -756,7 +744,7 @@
    "site": "https://www.goodgoodgood.co/",
    "lang": "en",
    "ok": true,
-   "count": 12,
+   "count": 11,
    "error": ""
   },
   {
